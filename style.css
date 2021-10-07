@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(206, 178, 52);
+}
+
+h2 {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#background {
+    /* border: 2px solid black; */
+    background-image: url(assets/beatles-header.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#footer {
+    /* border: 2px solid white; */
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+#beatles {
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#JohnLennon {
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 106);
+    display: flex;
+    justify-content: center;
+}
+
+#Titre1 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image1 {
+    border: 2px solid white;
+    background-image: url(assets/beatles-1.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#PaulMcCarteny {
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(184, 5, 255);
+}
+
+#Titre2 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image2 {
+    border: 2px solid white;
+    background-image: url(assets/beatles-2.png);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#GeorgeHarrison {
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(253, 142, 77);
+}
+
+#Titre3 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image3 {
+    border: 2px solid white;
+    background-image: url(assets/beatles-3.png);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#RingoStarr {
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 71, 71);
+}
+#Titre4 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image4 {
+    border: 2px solid white;
+    background-image: url(assets/beatles-4.png);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+}
